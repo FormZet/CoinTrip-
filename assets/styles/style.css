@@ -63,18 +63,18 @@ header h2{
 }
 .filtres{
 	border-radius: 10px;
-	display: flex;
 	position: relative;
+	top: 115px;
+	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	top: 13px;
 	width: 300px;
 	height: 720px;
 	background-color: yellow;
 }
 .Filt-Panel{
 	position: relative;
-	top: 20px;
+	right: 300px;
 	margin-right: 110px;
 	left: 0;
 	display: flex;
@@ -230,6 +230,11 @@ label.-theme-dark{
 .label{
 	font-family: "p";
 }
-.cointrip{
-	color: red;
+.Earth:hover{
+		transform: scale(1.1);
+	transition: 0.5s;
+}
+.Earth{
+	margin-right: 50px;
+	margin-top: 30px;
 }
