@@ -1,0 +1,54 @@
+.modal {
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.modal,
+.modal__bg {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.modal__bg {
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal__body {
+	width: 900px;
+	height: 600px;
+	z-index: 2;
+	background-color: green;
+	border-radius: 10px;
+}
+
+.modal__title {
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+.review h2{
+	margin-bottom: 20px;
+}
+.points{
+	margin-top: 30px;
+	display: flex;
+}
+.points img{
+	margin-right: 20px;
+}
+span{
+	font-size: 20px;
+	font-weight: 800;
+	position: relative;
+	top: -13px;
+}
+.links{
+	display: flex;
+	justify-content: space-between;
+
+}

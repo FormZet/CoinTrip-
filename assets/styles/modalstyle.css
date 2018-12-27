@@ -1,0 +1,56 @@
+.modal__body h1{
+	text-align: center;
+	font-size: 45px;
+	color: white;		
+}
+.disc h3{
+	font-size: 20px;
+}
+.review{
+	display: flex;
+	align-items:center;
+	justify-content: space-between; 
+	flex-direction: row;
+}
+.points{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30px;
+}
+.disc{
+	display: flex;
+	width: 500px;
+	border-radius: 10px;
+	border: 4px dashed yellow;
+	margin-right: 150px;
+	margin-top: 30px;
+}
+.modalpic{
+	display: flex;
+	justify-content: space-around;
+}
+.modalpic img{
+	height: 200px;
+	width: 420px;
+}
+.partnership img{
+	margin-top: 30px;
+	margin-left: 30px;
+	height: 50px;
+}
+.partnership{
+	display: flex;
+}
+.wiki img{
+	width: 70%;
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+.cname{
+	font-family: "Headers2";
+}
+.rebutton img{
+	width: 80px;
+	margin-right: 30px;
+}
